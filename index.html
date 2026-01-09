@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Senior Personal Portfolio of Mohammed Dergham - Front-End Developer, WordPress Specialist, and SEO Expert.">
+    <title>Mohammed Dergham | Senior Front-End Developer & SEO Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/profile.jpeg">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Mohammed.</a>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+                <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+                <button id="lang-toggle-nav" class="lang-btn">AR</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 data-i18n="hero_greeting">Hello, I'm</h2>
+                    <h1 id="typewriter-text">Mohammed Dergham</h1>
+                    <h3 data-i18n="hero_subtitle">Front-End Developer • WordPress • SEO & Speed Optimization</h3>
+                    <p data-i18n="hero_desc">Transforming business needs into high-performance websites. I specialize in creating fast, SEO-optimized websites that rank well and deliver exceptional user experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="assets/cv/cv.pdf" download class="btn btn-primary" data-i18n="btn_download_cv">Download CV</a>
+                        <a href="#contact" class="btn btn-secondary" data-i18n="btn_contact_me">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpeg" alt="Mohammed Dergham">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">About Me</h2>
+            <div class="about-content">
+                <p data-i18n="about_text">I am a dedicated Front-End Developer and SEO Specialist with a passion for building websites that not only look great but perform exceptionally. My expertise lies in creating custom WordPress solutions, optimizing website speed, and implementing advanced SEO strategies that help businesses rank higher and convert better. I focus on clean code, fast loading times, and search engine visibility.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Current Role -->
+    <section id="experience" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title" data-i18n="experience_title">Experience & Expertise</h2>
+            <div class="experience-card">
+                <div class="exp-header">
+                    <h3 data-i18n="exp_role">Front-End Developer & SEO Specialist</h3>
+                    <span class="company" data-i18n="exp_company">Freelance & Professional Projects</span>
+                </div>
+                <ul class="exp-list">
+                    <li data-i18n="exp_item_1">Building high-performance websites optimized for speed and user experience.</li>
+                    <li data-i18n="exp_item_2">Implementing advanced SEO techniques to improve search engine rankings.</li>
+                    <li data-i18n="exp_item_3">Creating responsive, mobile-first WordPress websites with custom themes.</li>
+                    <li data-i18n="exp_item_4">Optimizing website loading times and Core Web Vitals for better performance.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I Actually Do (Value) -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="value_title">What I Actually Do</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3 data-i18n="value_1_title">Website Development</h3>
+                    <p data-i18n="value_1_desc">Creating modern, responsive websites that work flawlessly across all devices and browsers.</p>
+                </div>
+                <div class="card">
+                    <h3 data-i18n="value_2_title">SEO Optimization</h3>
+                    <p data-i18n="value_2_desc">Implementing on-page and technical SEO strategies to boost your website's visibility and rankings.</p>
+                </div>
+                <div class="card">
+                    <h3 data-i18n="value_3_title">Speed Optimization</h3>
+                    <p data-i18n="value_3_desc">Optimizing websites for lightning-fast loading times and excellent Core Web Vitals scores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO & Performance -->
+    <section class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title" data-i18n="auto_title">SEO & Performance Optimization</h2>
+            <div class="auto-content">
+                <p data-i18n="auto_desc">I specialize in making websites faster and more visible. From optimizing images and code to implementing schema markup and improving Core Web Vitals, I ensure your website ranks well and loads instantly.</p>
+                <div class="tags">
+                    <span>Technical SEO</span>
+                    <span>Speed Optimization</span>
+                    <span>Core Web Vitals</span>
+                    <span>Schema Markup</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects_title">Projects</h2>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All</button>
+                <button class="filter-btn" data-filter="wordpress" data-i18n="filter_wp">WordPress</button>
+                <button class="filter-btn" data-filter="frontend" data-i18n="filter_fe">Front-End</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- WordPress Projects -->
+                <div class="project-card" data-category="wordpress">
+                    <div class="project-img">
+                        <img src="assets/images/project1/1.png" alt="OA Solutions">
+                        <div class="overlay">
+                            <a href="https://oasolutionsco.com/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>OA Solutions</h3>
+                        <p data-i18n="proj_oa_desc">Marketing Agency Website</p>
+                        <span class="tech">WordPress</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="wordpress">
+                    <div class="project-img">
+                        <img src="assets/images/project2/1.png" alt="Fantasy Hub">
+                        <div class="overlay">
+                            <a href="https://fantasyhub.com.sa/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fantasy Hub</h3>
+                        <p data-i18n="proj_fantasy_desc">Digital Marketing Platform</p>
+                        <span class="tech">WordPress</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="wordpress">
+                    <div class="project-img">
+                        <img src="assets/images/project3/1.png" alt="Pearl Narjis Clinic">
+                        <div class="overlay">
+                            <a href="https://pearlnarjisss.com/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Pearl Narjis Clinic</h3>
+                        <p data-i18n="proj_pearl_desc">Medical Clinic Website</p>
+                        <span class="tech">WordPress</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="wordpress">
+                    <div class="project-img">
+                        <img src="assets/images/project4/1.png" alt="Soha Skin Clinic">
+                        <div class="overlay">
+                            <a href="https://sohaskinclinic.com/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Soha Skin Clinic</h3>
+                        <p data-i18n="proj_soha_desc">Skin Care Clinic</p>
+                        <span class="tech">WordPress</span>
+                    </div>
+                </div>
+
+                <!-- Front-End Projects -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-img">
+                        <img src="assets/images/project5/1.png" alt="Bakkah Travel">
+                        <div class="overlay">
+                            <a href="https://bakkah-travel.vercel.app/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bakkah Travel</h3>
+                        <p data-i18n="proj_bakkah_desc">Travel Agency Landing Page</p>
+                        <span class="tech">HTML/CSS/JS</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="frontend">
+                    <div class="project-img">
+                        <img src="assets/images/project6/1.png" alt="Sham Imbiss">
+                        <div class="overlay">
+                            <a href="https://sham-imbiss.vercel.app/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sham Imbiss</h3>
+                        <p data-i18n="proj_sham_desc">Restaurant Website</p>
+                        <span class="tech">HTML/CSS/JS</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="frontend">
+                    <div class="project-img">
+                        <img src="assets/images/project7/1.png" alt="E-Store">
+                        <div class="overlay">
+                            <a href="https://estore-brown.vercel.app/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Store</h3>
+                        <p data-i18n="proj_estore_desc">E-Commerce Template</p>
+                        <span class="tech">HTML/CSS/JS</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="frontend">
+                    <div class="project-img">
+                        <img src="assets/images/project8/1.png" alt="Weather App">
+                        <div class="overlay">
+                            <a href="https://weather-app-javascript-alpha.vercel.app/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p data-i18n="proj_weather_desc">Live Weather Application</p>
+                        <span class="tech">Pure JS API</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="frontend">
+                    <div class="project-img">
+                        <img src="assets/images/project9/1.png" alt="To-Do List">
+                        <div class="overlay">
+                            <a href="https://to-do-list-zoe3.vercel.app/" target="_blank" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do List</h3>
+                        <p data-i18n="proj_todo_desc">Task Management App</p>
+                        <span class="tech">Pure JS</span>
+                    </div>
+                </div>
+
+                 <div class="project-card" data-category="frontend">
+                    <div class="project-img">
+                        <img src="assets/images/project10/1.png" alt="Stopwatch App">
+                        <div class="overlay">
+                            <a href="#" class="view-btn" data-i18n="view_live">View Live</a>
+                            <button class="details-btn" data-i18n="view_details">Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Stopwatch App</h3>
+                        <p data-i18n="proj_stopwatch_desc">Time Tracking Tool</p>
+                        <span class="tech">Pure JS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results & Impact -->
+    <section class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title" data-i18n="results_title">Results & Impact</h2>
+            <div class="grid-4">
+                <div class="stat-card">
+                    <h4>Faster</h4>
+                    <p data-i18n="res_manual">Loading Speed</p>
+                </div>
+                <div class="stat-card">
+                    <h4>Higher</h4>
+                    <p data-i18n="res_booking">SEO Rankings</p>
+                </div>
+                <div class="stat-card">
+                    <h4>Better</h4>
+                    <p data-i18n="res_ops">User Experience</p>
+                </div>
+                <div class="stat-card">
+                    <h4>Improved</h4>
+                    <p data-i18n="res_reliability">Performance Scores</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools & Technologies -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="tools_title">Tools & Technologies</h2>
+            <div class="tools-grid">
+                <span class="tool-badge">HTML5</span>
+                <span class="tool-badge">CSS3</span>
+                <span class="tool-badge">JavaScript (Pure)</span>
+                <span class="tool-badge">WordPress</span>
+                <span class="tool-badge">SEO Optimization</span>
+                <span class="tool-badge">Speed Optimization</span>
+                <span class="tool-badge">Git / GitHub</span>
+                <span class="tool-badge">Responsive Design</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- How I Work -->
+    <section class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title" data-i18n="process_title">How I Work</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <span class="step-num">01</span>
+                    <h3 data-i18n="step_1">Understand Requirements</h3>
+                </div>
+                <div class="step">
+                    <span class="step-num">02</span>
+                    <h3 data-i18n="step_2">Design & Planning</h3>
+                </div>
+                <div class="step">
+                    <span class="step-num">03</span>
+                    <h3 data-i18n="step_3">Development</h3>
+                </div>
+                <div class="step">
+                    <span class="step-num">04</span>
+                    <h3 data-i18n="step_4">SEO & Speed Optimization</h3>
+                </div>
+                <div class="step">
+                    <span class="step-num">05</span>
+                    <h3 data-i18n="step_5">Launch & Support</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title" data-i18n="contact_title">Contact Me</h2>
+            <div class="contact-links">
+                <a href="mailto:mhmddrgham368@gmail.com" class="contact-item">
+                    <span class="icon">📧</span>
+                    <span>mhmddrgham368@gmail.com</span>
+                </a>
+                <a href="https://wa.me/201117689212" class="contact-item">
+                    <span class="icon">📱</span>
+                    <span>+20 11 17689212</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mohammed Dergham. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Elements -->
+    <div class="floating-container">
+        <a href="https://wa.me/201117689212" class="float-btn whatsapp" target="_blank" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.592 2.654-.696c1.009.575 2.173.889 3.343.891s3.481-2.935 3.481-2.935c1.784-1.785 1.784-4.677 0-6.462-1.184-1.185-2.76-1.838-4.435-1.839.261-.604.417-1.304.417-2.042 0-2.627-2.13-4.756-4.757-4.756s-4.756 2.129-4.756 4.756c0 .736.156 1.437.417 2.042-1.675 0-3.251.653-4.435 1.838-2.365 2.366-2.365 6.208 0 8.574 2.365 2.365 6.209 2.365 8.574 0 1.184-1.184 1.838-2.76 1.838-4.435 0-.738-.156-1.438-.417-2.042zM12 21.63c-1.795 0-3.535-.478-5.075-1.39l-5.637 1.479 1.503-5.498c-1.002-1.637-1.531-3.524-1.531-5.485 0-5.856 4.764-10.62 10.62-10.62 2.836 0 5.503 1.104 7.509 3.109s3.109 4.673 3.109 7.509c0 5.856-4.764 10.62-10.62 10.62z"/></svg>
+        </a>
+        <button id="lang-toggle-float" class="float-btn lang">AR</button>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img src="" alt="" id="modal-img">
+                <h3 id="modal-title"></h3>
+                <p id="modal-desc"></p>
+                <span id="modal-tech"></span>
+                <a href="" target="_blank" class="btn btn-primary" id="modal-link" data-i18n="view_live">View Live</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
